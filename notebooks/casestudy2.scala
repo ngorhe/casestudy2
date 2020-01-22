@@ -1,4 +1,5 @@
 // Databricks notebook source
+
 val configs = Map(
   "fs.azure.account.auth.type" -> "OAuth",
   "fs.azure.account.oauth.provider.type" -> "org.apache.hadoop.fs.azurebfs.oauth2.ClientCredsTokenProvider",
